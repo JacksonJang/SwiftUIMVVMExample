@@ -9,7 +9,10 @@ import SwiftUI
 
 
 struct ButtonView: UIViewRepresentable {
+    @Binding var username: String
+    
     var text:String
+    
     
     func makeCoordinator() -> ButtonCoordinator {
         return ButtonCoordinator(parent: self)

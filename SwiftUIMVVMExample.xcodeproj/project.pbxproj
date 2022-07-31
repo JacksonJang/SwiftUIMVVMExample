@@ -14,6 +14,7 @@
 		E21D3AA328961C200065E25B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AA228961C200065E25B /* ContentView.swift */; };
 		E21D3AA52896A88E0065E25B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AA42896A88E0065E25B /* ButtonView.swift */; };
 		E21D3AA72896A8C60065E25B /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AA62896A8C60065E25B /* LoginCoordinator.swift */; };
+		E21D3AAB2896EC860065E25B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AAA2896EC860065E25B /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E21D3AA228961C200065E25B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E21D3AA42896A88E0065E25B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		E21D3AA62896A8C60065E25B /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		E21D3AAA2896EC860065E25B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E21D3A8E28961BDD0065E25B /* AppDelegate.swift */,
 				E21D3A9028961BDD0065E25B /* SceneDelegate.swift */,
 				E21D3AA228961C200065E25B /* ContentView.swift */,
+				E21D3AAA2896EC860065E25B /* LoginView.swift */,
 				E21D3AA42896A88E0065E25B /* ButtonView.swift */,
 				E21D3AA62896A8C60065E25B /* LoginCoordinator.swift */,
 				E21D3A9728961BDE0065E25B /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21D3AAB2896EC860065E25B /* LoginView.swift in Sources */,
 				E21D3A8F28961BDD0065E25B /* AppDelegate.swift in Sources */,
 				E21D3A9128961BDD0065E25B /* SceneDelegate.swift in Sources */,
 				E21D3AA72896A8C60065E25B /* LoginCoordinator.swift in Sources */,
