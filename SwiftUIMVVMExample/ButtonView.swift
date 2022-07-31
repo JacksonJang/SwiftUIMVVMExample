@@ -25,7 +25,7 @@ struct ButtonView: UIViewRepresentable {
         button.layer.cornerRadius = 10
         button.layer.borderWidth = 1
         button.layer.borderColor = UIColor.gray.withAlphaComponent(0.5).cgColor
-        button.addTarget(self, action: #selector(ButtonCoordinator.didTapButton), for: .touchUpInside)
+        button.addTarget(context.coordinator, action: #selector(ButtonCoordinator.didTapButton), for: .touchUpInside)
         
         return button
     }
