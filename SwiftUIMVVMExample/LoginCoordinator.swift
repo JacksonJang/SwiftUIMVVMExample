@@ -1,5 +1,5 @@
 //
-//  LoginCoordinator.swift
+//  ButtonCoordinator.swift
 //  SwiftUIMVVMExample
 //
 //  Created by 장효원 on 2022/07/31.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-class LoginCoordinator: NSObject {
-    var parent: LoginView?
+class ButtonCoordinator: NSObject {
+    var parent: ButtonView?
     
-    init(parent: LoginView) {
+    init(parent: ButtonView) {
         self.parent = parent
         super.init()
         
