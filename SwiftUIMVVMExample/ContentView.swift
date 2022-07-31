@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("test")
+        VStack{
+            HStack {
+                Spacer(minLength: 10)
+                LoginView().frame(height: 50)
+                Spacer(minLength: 10)
+            }
         }
     }
     
