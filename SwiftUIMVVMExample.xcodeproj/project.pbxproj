@@ -15,6 +15,8 @@
 		E21D3AA52896A88E0065E25B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AA42896A88E0065E25B /* ButtonView.swift */; };
 		E21D3AA72896A8C60065E25B /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AA62896A8C60065E25B /* LoginCoordinator.swift */; };
 		E21D3AAB2896EC860065E25B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AAA2896EC860065E25B /* LoginView.swift */; };
+		E21D3ABC289865790065E25B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3ABB289865790065E25B /* LoginViewModel.swift */; };
+		E21D3ABF2898659F0065E25B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3ABE2898659F0065E25B /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E21D3AA42896A88E0065E25B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		E21D3AA62896A8C60065E25B /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		E21D3AAA2896EC860065E25B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E21D3ABB289865790065E25B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E21D3ABE2898659F0065E25B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		E21D3A8D28961BDD0065E25B /* SwiftUIMVVMExample */ = {
 			isa = PBXGroup;
 			children = (
+				E21D3ABD289865930065E25B /* Models */,
+				E21D3AB8289865500065E25B /* ViewModels */,
 				E21D3A8E28961BDD0065E25B /* AppDelegate.swift */,
 				E21D3A9028961BDD0065E25B /* SceneDelegate.swift */,
 				E21D3AA228961C200065E25B /* ContentView.swift */,
@@ -71,6 +77,22 @@
 				E21D3A9C28961BDE0065E25B /* Info.plist */,
 			);
 			path = SwiftUIMVVMExample;
+			sourceTree = "<group>";
+		};
+		E21D3AB8289865500065E25B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E21D3ABB289865790065E25B /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E21D3ABD289865930065E25B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E21D3ABE2898659F0065E25B /* LoginModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +170,9 @@
 				E21D3A9128961BDD0065E25B /* SceneDelegate.swift in Sources */,
 				E21D3AA72896A8C60065E25B /* LoginCoordinator.swift in Sources */,
 				E21D3AA52896A88E0065E25B /* ButtonView.swift in Sources */,
+				E21D3ABF2898659F0065E25B /* LoginModel.swift in Sources */,
 				E21D3AA328961C200065E25B /* ContentView.swift in Sources */,
+				E21D3ABC289865790065E25B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

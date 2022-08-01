@@ -9,10 +9,10 @@ import SwiftUI
 
 
 struct ButtonView: UIViewRepresentable {
-    @Binding var username: String
+    @EnvironmentObject var loginViewModel:LoginViewModel
     
     var text:String
-    
+    var completion:(()->Void)? = nil
     
     func makeCoordinator() -> ButtonCoordinator {
         return ButtonCoordinator(parent: self)

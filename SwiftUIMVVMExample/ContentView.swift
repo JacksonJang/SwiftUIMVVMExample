@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var loginViewModel = LoginViewModel()
+    
     var body: some View {
         VStack{
-            LoginView()
+            LoginView().environmentObject(loginViewModel)
         }
     }
     

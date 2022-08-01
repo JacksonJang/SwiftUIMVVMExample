@@ -18,7 +18,7 @@ class ButtonCoordinator: NSObject {
     
     @objc
     func didTapButton() {
-        print("username : ", parent?.username)
         print("didTapButton")
+        self.parent?.completion?()
     }
 }
