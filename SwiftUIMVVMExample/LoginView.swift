@@ -10,7 +10,6 @@ import SwiftUI
 struct LoginView: View {
     @EnvironmentObject var loginViewModel : LoginViewModel
     
-    @State var isLogin = false
     @State var username = ""
     @State var password = ""
     
@@ -43,7 +42,9 @@ struct LoginView: View {
                 //로그인 버튼
                 HStack {
                     ButtonView(text: "Login", completion: {
-                        loginViewModel.saveUser(username: username, password: password)
+                        loginViewModel.saveUser(username: username, password: password) { bool in
+                            self.loginViewModel.model.isLogin = bool
+                        }
                     })
                     .frame(height: 50)
                     .environmentObject(loginViewModel)
